@@ -2,19 +2,34 @@ I used MySQL + a maven project via IntelliJ
 
 Description:
 
-    This project creates a connection between a user created database in a MySQL server and a java program via JDBC, creating two new tables: employee, and department in the specified database.
+    This project creates a connection between a user created database in a 
+    MySQL server and a java program via JDBC, creating two new tables: employee, 
+    and department in the specified database.
 
-    The schema which you are using for the tables should already exist before attempting to run the program (In MySQL I have a schema called companyDB, which the program connects to).
+    The schema which you are using for the tables should already exist before 
+    attempting to run the program (In MySQL I have a schema called companyDB, 
+    which the program connects to).
 
-    The program reads in a transfile.txt and parses queries based on the transaction code given at the start of the line,and the subsequent arguments. Rigorous error checking and exception handling is done throughout the program
+    The program reads in a transfile.txt and parses queries based on the 
+    transaction code given at the start of the line,and the subsequent 
+    arguments. Rigorous error checking and exception handling is done throughout 
+    the program
 
-    Uses prepared statements to prevent SQL injection attacks, and only permits executing a set of allowed queries as designated by their Transaction Code. The user may customize the queries by changing the parameters in the transfile.txt, which is rigorously error checked before allowing execution.
+    Uses prepared statements to prevent SQL injection attacks, and only permits 
+    executing a set of allowed queries as designated by their Transaction Code. 
+    The user may customize the queries by changing the parameters in the 
+    transfile.txt, which is rigorously error checked before allowing execution.
 
 How to use:
 
-    Make sure the transfile.txt is in the root folder of the project, or else it will not be found
+    Make sure the transfile.txt is in the root folder of the project, or else 
+    it will not be found
 
-    When the program starts, it will ask you for the name of the database (schema) that you want to connect to (for me this was my companyDB schema in MySQL), your userid to log in to MySQL (for me I just did "root"), and your MySQL password. If all these are entered correctly, then it will connect to the database and begin processing the transfile.txt
+    When the program starts, it will ask you for the name of the database (schema)
+    that you want to connect to (for me this was my companyDB schema in MySQL), 
+    your userid to log in to MySQL (for me I just did "root"), and your MySQL 
+    password. If all these are entered correctly, then it will connect to the 
+    database and begin processing the transfile.txt
 
     The program reads every line of the transfile.txt and attempts to interpret them as some transaction code and arguments. Rigorous error checking is used to make sure that each line is evaluated or skipped correctly.
 

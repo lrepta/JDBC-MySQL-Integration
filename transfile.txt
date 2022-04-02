@@ -1,0 +1,58 @@
+m
+
+1 Mary Software
+1
+3
+3 Software Math
+4 Software
+4 Software Mary Math
+5
+5 Mary
+5 Mary Jim
+6
+6 Mary
+6 Mary Jim
+2 Mary Software 200000 Chicago Professor
+2 Mary Software Chicago
+-1 Mary Software 200000 Chicago
+0 Mary Software 200000 Chicago
+7 Mary Software 200000 Chicago
+a Mary Software 200000 Chicago
+2 Mary Software 200000 Chicago
+2 Mary AI 150000 Chicago
+2 John Software 150000 Chicago
+2 Jeff AI 150000 Evanston
+2 Cathy AI 160000 Evanston
+2 Ben Math 160000 Chicago
+2 Jim Math 120000 Chicago
+2 Bob Math 100000 Chicago
+2 Jacob AI 120000 Philadelphia
+2 Harold Software 60000 Pittsburgh
+2 Dev PE 80000 DC
+2 Lee Art 90000 NYC
+2 Eric Art 70000 Boston
+2 Edwards DataScience 200000 Chicago
+2 Nina DataScience 180000 Southbend
+4 Software Mary
+4 PE Bob
+3 PE
+4 PE Bob
+1 Dev
+2 Dev PE 80000 DC
+4 Art Dev
+4 AI Cathy
+4 DataScience Edward
+4 DataScience Edwards
+4 Math John
+5 Mary
+3 PE
+5 Mary
+4 PE Bob
+6 Mary
+6 Edwards
+6 Jeff
+6 Billy
+3 AI
+1 John
+1 Mary
+5 Mary

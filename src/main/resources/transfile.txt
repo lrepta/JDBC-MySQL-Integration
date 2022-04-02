@@ -1,0 +1,11 @@
+2 Mary Software 200000 Chicago
+2 John Software 150000 Chicago
+2 Jeff AI 150000 Evanston
+2 Cathy AI 160000 Evanston
+2 Edwards DataScience 200000 Chicago
+2 Nina DataScience 180000 Southbend
+4 Software Mary
+4 AI Cathy
+4 DataScience Edward
+5 Mary
+1 John
